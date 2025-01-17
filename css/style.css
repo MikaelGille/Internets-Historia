@@ -1,0 +1,491 @@
+/* Startsida */
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.top-background {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 600px;
+}
+
+.text-overlay h1, h3 {
+    position: absolute;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.text-overlay h1 {
+    top: 38%;
+    right: 13%;
+    font-size: 4rem;
+}
+
+.text-overlay h3 {
+    top: 54%;
+    right: 10%;
+    font-size: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 40%;
+    height: auto;
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+}
+
+.video-loop {
+    position: absolute;
+    top: 4%;
+    left: 11%;
+    width: 78%;
+    height: 83%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bottom-container img {
+    width: 58%;
+    height: auto;
+}
+
+.text-container {
+    margin: 2.6rem;
+    padding-left: 3rem;
+}
+
+.text-container h2 {
+    font-size: 2.7rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.text-container p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.text-container ul {
+    padding: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.text-container ul li:first-child {
+    list-style-type: none;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+/* Startsida slut */
+
+/* Historia */
+
+.event-container {
+    max-width: 100%;
+}
+
+.event-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-text {
+    width: 50%;
+    padding: 3rem;
+}
+
+.event-text h2 {
+    font-size: 2.3rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+.event-text p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    padding-left: 3rem;
+}
+
+.event-text p:nth-of-type(1) {
+    padding-top: 1rem;
+}
+
+.event-text a {
+    text-decoration: none;
+}
+
+.event-text a:visited {
+    color: blue;
+}
+
+.event-year {
+    width: 40%;
+}
+
+.event-year h3 {
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    color: #000;
+    font-size: 3.5rem;
+}
+
+.horizontal-line {
+    position: absolute;
+    margin-left: 20%;
+    width: 60%;
+    height: 3px;
+    background-color: #000;
+}
+
+.vertical-line {
+    position: absolute;
+    margin-left: 60%;
+    width: 3px;
+    height: 200px;
+    background-color: #000;
+}
+
+.event-video {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.event-video video {
+    width: 95%;
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+/* Historia slut */
+
+/* Inspiration */
+
+.insp-container {
+    max-width: 100%;
+}
+
+.insp-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.insp-img {
+    padding: 5rem 0 3rem 6rem;
+}
+
+.insp-img img {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    max-height: 800px;
+}
+
+.insp-img p {
+    text-align: center;
+}
+
+.insp-img a {
+    text-decoration: none;
+}
+
+.insp-img a:visited, a:active {
+    color: blue;
+}
+
+.insp-text {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.insp-text h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.insp-text p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+.insp-source {
+    padding-top: 1rem;
+}
+
+.insp-source p a {
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.insp-source a:visited, a:active {
+    color:blue;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.8rem;
+    margin: 0 0 3rem 28rem;
+    border-radius: 15px;
+    box-shadow: inset 0 1px 2px black;
+    max-width: 600px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 1.3rem;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-container input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    height: 10rem;
+}
+
+button {
+    background-color: #373643;
+    color: white;
+    border: none;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #73718c;
+}
+
+/* Inspiration slut */
+
+/* Agilt */
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction img {
+    width: 55%;
+    height: auto;
+    padding: 4rem;
+}
+
+.intro-text {
+    padding: 4rem;
+    width: 50%;
+}
+
+.intro-text h1 {
+    font-size: 2.5rem;
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+}
+
+.methods-file {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.agile-methods {
+    padding: 4rem;
+    width: 50%;
+}
+
+.agile-methods h1 {
+    font-size: 2.5rem;
+}
+
+.agile-methods p {
+    font-size: 1.1rem;
+}
+
+.agile-file {
+    padding: 4rem 4rem 12rem 4rem;
+    width: 50%;
+}
+
+.agile-file h1 {
+    font-size: 2.5rem;
+}
+
+.agile-file a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-left: 10rem;
+    margin-top: 8rem;
+    background-color: #373643;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.agile-file a:hover {
+    background-color: #73718c;
+}
+
+.tools-terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.agile-tools {
+    padding: 4rem;
+    width: 50%;
+}
+
+.agile-tools h1 {
+    font-size: 2.5rem;
+}
+
+.agile-tools h2 {
+    text-align: left;
+    padding-top: 1.5rem;
+}
+
+.agile-tools p {
+    font-size: 1.1rem;
+
+}
+
+.english-terms {
+    padding: 4rem;
+    width: 50%;
+}
+
+.english-terms h1 {
+    font-size: 2.5rem;
+}
+
+.english-terms li {
+    list-style-type: none;
+    line-height: 1.2rem;
+}
+
+.english-terms li:nth-child(odd) {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-top: 1.5rem;
+}
+
+.agile-line {
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    height: 1px;
+    background-color: #000;
+}
+
+.horizontal-line-bottom {
+    position: absolute;
+    margin-left: 6%;
+    width: 88%;
+    height: 3px;
+    background-color: #000;
+}
+
+.agile-ending {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 5rem 4rem 5rem;
+    color: #fff;
+}
+
+.reflections {
+    font-size: 1.7rem;
+    text-align: center;
+    width: 45%;
+    padding: 2rem;
+    box-shadow: inset 2px 2px 4px #000;
+    background-color: #373643;
+    border-radius: 10px;
+}
+
+.analysis {
+    font-size: 1.7rem;
+    text-align: center;
+    width: 45%;
+    padding: 2rem;
+    box-shadow: inset 2px 2px 4px #000;
+    background-color: #373643;
+    border-radius: 10px;
+}
+
+.reflections p {
+    font-size: 1.15rem;
+    text-align: left;
+    margin: 2rem;
+}
+
+.analysis p {
+    font-size: 1.15rem;
+    text-align: left;
+    margin: 2rem;
+}
+
+/* Agilt slut */
