@@ -1,10 +1,12 @@
 # Internet Historia - Webbprojekt HTML & CSS
+
 Detta projekt är en webbplats som behandlar internets historia, dess tekniska utveckling, en inspirerande person samt agila arbetsmetoder. 
 Webbplatsen är skapad som en del av en skoluppgift och innehåller flera olika sidor som presenterar 
 både faktabaserad information och personliga reflektioner.
 <br>
 
 ## Innehåll
+
 1. **Startsida** <br>
 En välkomstsida med en introduktion om mig själv samt vad hemsidan innehåller
 
@@ -19,6 +21,15 @@ En sida som beskriver agil projektmetodik, även med egna reflektioner och analy
 <br>
 
 ## Användarteknologi
+
 - HTML
 - CSS
 - Ej responsiv (enbart avsedd för stationära enheter)
+<br>
+
+## Syfte med projektet
+
+- Fördjupa kunskaper om internets historia och utveckling
+- Lära och tillämpa webbstandarder
+- Få förståelse om agila arbetsmetoder
+- Utveckla analys- och reflektionsförmåga
